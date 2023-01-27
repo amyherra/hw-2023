@@ -2,7 +2,7 @@ body {
     font-family: Arial, Verdana;
     background-color: #000000;
     color: #FFFFFF;
-    margin: 20px 20px 0 20px;
+    margin: 20px 20px 0px 20px;
 }
 
 h1 {
@@ -18,7 +18,7 @@ h2 {
 
 p {
     font-size: 24px;
-    padding: 10px 10px 0 10px;
+    padding: 10px 10px 0px 10px;
 }
 
 img {
@@ -32,7 +32,6 @@ img {
     min-height: 125px;
     padding: 20px;
     border: 3px solid white;
-    box-sizing: border-box;
   }
 
   .introduction {
@@ -42,31 +41,28 @@ img {
   }
 
   .red {
-    background-color: #ff0000; /* red */
+    background-color: #ff0000; 
     text-align: right;
     margin-left: 50px;
-    border-bottom: 2px solid;
-    border-left: 5px solid;
+    border-width: 0px 0px 2px 5px; 
   }
 
   .blue {
-    background-color: #0000ff; /* blue */
+    background-color: #0000ff; 
     text-align: left;
     margin-right: 50px;
-    border-right: 5px solid;
-    border-top: 2px solid;
+    border-width: 2px 5px 0px 0px; 
   }
 
-  .blue h1, .blue p {
+  .blue h2, .blue p {
     color: #C4C4C4;
   }
 
   .yellow {
-    background-color: #FFFF00; /* yellow */
+    background-color: #FFFF00;
     text-align: right;
     margin-left: 50px;
-    border-bottom: 2px solid;
-    border-left: 5px solid;
+    border-width: 0px 0px 2px 5px; 
   }
 
   .yellow p {
@@ -74,11 +70,10 @@ img {
   }
 
   div.green {
-    background-color: #00D800;
+    background-color: #008500;
     text-align: left;
     margin-right: 50px;
-    border-right: 5px solid;
-    border-top: 2px solid;
+    border-width: 2px 5px 0px 0px; 
 }
 
 footer {
@@ -89,5 +84,5 @@ footer {
 footer p {
     font-size: 20px;
     text-align: right;
-    padding: 15px 15px 15px 0;
+    padding: 15px 15px 15px 0px;
 }
