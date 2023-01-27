@@ -23,7 +23,7 @@ p {
 
 img {
     width: 250px;
-    margin: 0 auto;
+    margin: auto;
     border: 10px dashed white;
   }
 
